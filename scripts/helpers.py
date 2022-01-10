@@ -1,4 +1,3 @@
-# from eth_account import account
 from brownie import (
     network,
     config,
@@ -27,7 +26,7 @@ def get_account(index=None, id=None):
         network.show_active() in FORKED_LOCAL_ENV
     ):
         return accounts[0]
-    return accounts.load("my-account")
+    return accounts.add(config["wallets"]["from_key"])
 
 
 contract_to_mock = {

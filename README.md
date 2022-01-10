@@ -1,4 +1,4 @@
-task:
-1. users can enter the lottery with ETH based on USD fee
-2. an admin will choose when the lottery is over 
-3. the lottery will select a random winner
+Features:
+1. Users can enter the lottery with ETH based on particular fee
+2. An admin will choose the winner by ending the lottery 
+3. The lottery will select a random winner and transfer the pool amount
